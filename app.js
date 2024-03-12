@@ -32,6 +32,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const dbUrl = process.env.ATLASDB_URL;
 
+
 main().then(() => {
     console.log("Connection establish successfully.");
 }).catch((err) => {

@@ -92,7 +92,7 @@
                 <div class="card mt-3 mb-3 col-5 ms-3">
                     <div class="card-body">
                         <div class="card-title"><b>@<%= review.author.username %></b></div>
-                        <p class="starability-result card-text" data-rating="<%= review.rating %>"></p>
+                        <p class=" starability-result card-text" data-rating="<%= review.rating %>"></p>
                         <p class="card-text"><%= review.comment %></p>
                         
                        
@@ -117,10 +117,14 @@
         
 
     </div>
-    <div class="col-8 offset-3 mb-3">
-        <h3>Where you'll be</h3>
-        <div id="map"></div>
+    <div class="row">
+        <div class=" container col-8  mb-3">
+            <h3 class="container offset-3">Where you'll be</h3>
+            <div id="map" class="container"></div>
+        </div>
+
     </div>
+    
    
 
     <script src="/js/map.js"></script>
