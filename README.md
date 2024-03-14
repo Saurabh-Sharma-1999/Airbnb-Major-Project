@@ -191,48 +191,48 @@ Thank you for exploring Airbnb! Your feedback is valuable. If you have any sugge
 
 ### Main Page
 
-<img src="ProjectFrontImage.png" alt="project image">
+<img src="./ProjectImage/ProjectFrontImage.png" alt="project image">
 
 ### Footer
 
-<img src=" FooterImage.png" alt="project image">
+<img src="./ProjectImage/FooterImage.png" alt="project image">
 
 ### SignUP Page
 
-<img src="SignupImage.png" alt="project image">
+<img src="./ProjectImage/SignupImage.png" alt="project image">
 
-<img src="SignupImageDetailFill.png" alt="project image">
+<img src="./ProjectImage/SignupImageDetailFill.png" alt="project image">
 
 ### After SignUp
 
-<img src="AfterSignUp.png" alt="project image">
+<img src="./ProjectImage/AfterSignUp.png" alt="project image">
 
 ### Login Page
 
-<img src="loginImage.png" alt="project image">
+<img src="./ProjectImage/loginImage.png" alt="project image">
 
-<img src=" AfterLogin.png" alt="project image">
+<img src="./ProjectImage/AfterLogin.png" alt="project image">
 
 ### Create New Listing
 
-<img src="Create new list.png" alt="project image">
+<img src="./ProjectImage/Create new list.png" alt="project image">
 
-<img src="CreateList2.png" alt="project image">
+<img src="./ProjectImage/CreateList2.png" alt="project image">
 
 ### Show Page
 
-<img src="Listadded.png" alt="project image">
+<img src="./ProjectImage/Listadded.png" alt="project image">
 
-<img src="Listcreated.png" alt="project image">
+<img src="./ProjectImage/Listcreated.png" alt="project image">
 
-<img src="Review.png" alt="project image">
+<img src="./ProjectImage/Review.png" alt="project image">
 
-<img src="Map.png" alt="project image">
+<img src="./ProjectImage/Map.png" alt="project image">
 
 ### Edit Page
 
-<img src="Editpage.png" alt="project image">
+<img src="./ProjectImage/Editpage.png" alt="project image">
 
-<img src="listedit.png" alt="project image">
+<img src="./ProjectImage/listedit.png" alt="project image">
 
 
