@@ -135,7 +135,7 @@ Follow these steps to set up and run the project locally:
  1. Clone the Repository:
 
     https://github.com/Saurabh-Sharma-1999/Airbnb-Major-Project
-    
+
     cd Airbnb-Major-Project
 
 2. Install Dependencies:
@@ -186,3 +186,53 @@ Follow these steps to set up and run the project locally:
 ## Thank You
 
 Thank you for exploring Airbnb! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us. 
+
+## Project Image
+
+### Main Page
+
+<img src="ProjectFrontImage.png" alt="project image">
+
+### Footer
+
+<img src=" FooterImage.png" alt="project image">
+
+### SignUP Page
+
+<img src="SignupImage.png" alt="project image">
+
+<img src="SignupImageDetailFill.png" alt="project image">
+
+### After SignUp
+
+<img src="AfterSignUp.png" alt="project image">
+
+### Login Page
+
+<img src="loginImage.png" alt="project image">
+
+<img src=" AfterLogin.png" alt="project image">
+
+### Create New Listing
+
+<img src="Create new list.png" alt="project image">
+
+<img src="CreateList2.png" alt="project image">
+
+### Show Page
+
+<img src="Listadded.png" alt="project image">
+
+<img src="Listcreated.png" alt="project image">
+
+<img src="Review.png" alt="project image">
+
+<img src="Map.png" alt="project image">
+
+### Edit Page
+
+<img src="Editpage.png" alt="project image">
+
+<img src="listedit.png" alt="project image">
+
+
