@@ -16,12 +16,15 @@ This is a clone of Airbnb, a popular online marketplace for vacation rentals. Th
 </ul>
 
 ## Features
-1. User Authentication: Users can sign up, log in, and log out securely.
-2. Property Listings: Users can view available properties for rent.
-3. Property Details: Detailed information about each property, including description, amenities, location, and photos.
-4. Booking System: Users can make reservations for properties.
-5. Reviews and Ratings: Users can leave reviews and ratings for properties they have stayed in.
-<hr>
+
+<ul>
+   <li>User Authentication: Users can sign up, log in, and log out securely.</li>
+   <li>Property Listings: Users can view available properties for rent.</li>
+   <li>Property Details: Detailed information about each property, including description, amenities, location, and photos.</li>
+   <li>Booking System: Users can make reservations for properties.</li>
+   <li> Reviews and Ratings: Users can leave reviews and ratings for properties they have stayed in</li>
+   
+</ul>
 
 ## Technologies & Packages Used
 
@@ -46,44 +49,83 @@ This is a clone of Airbnb, a popular online marketplace for vacation rentals. Th
 
 ### Image Storage
 
- Cloudinary: Cloud-based image and video management solution.
+<ul>
+   <li>Cloudinary: Cloud-based image and video management solution.</li>
+</ul>
+
+ 
 
 ### Maps
 
-Mapbox: Platform for custom maps and location-based experiences.
+<ul>
+   <li>Mapbox: Platform for custom maps and location-based experiences.</li>
+</ul>
+
+
 
 ### Frontend
 
-EJS: Embedded JavaScript templates for dynamic content rendering.
+<ul>
+   <li>EJS: Embedded JavaScript templates for dynamic content rendering.</li>
+</ul>
+
+
 
 ### Session Management
 
-Connect Flash: Middleware for flash messages.
-Connect Mongo: MongoDB session store for Express.js.
-Cookie Parser: Middleware for parsing cookies.
+
+<ul>
+   <li>Connect Flash: Middleware for flash messages.</li>
+   <li> Connect Mongo: MongoDB session store for Express.js.</li>
+   <li>Cookie Parser: Middleware for parsing cookies.</li>
+   
+</ul>
+
+
+
 
 ### Validation
-Joi: Library for data validation.
+
+<ul>
+   <li>Joi: Library for data validation.</li>
+</ul>
+
+
 
 ### Object Modeling
-Mongoose: MongoDB object modeling for Node.js.
+ 
+ <ul>
+   <li>Mongoose: MongoDB object modeling for Node.js.</li>
+</ul>
+
+
 
 ### File Uploads
-Multer: Middleware for handling file uploads.
+
+ <ul>
+   <li>Multer: Middleware for handling file uploads.</li>
+</ul>
+
+
+
 
 ### Social Authentication
-Passport Local: Local authentication strategy.
-Passport Local Mongoose: Mongoose-specific authentication strategy. Authentication
+
+ <ul>
+   <li>Passport Local: Local authentication strategy.</li>
+    <li>Passport Local Mongoose: Mongoose-specific authentication strategy. Authentication</li>
+</ul>
 
 ## Key Features
 
-User Authentication: Login, Logout, and Signup
-CRUD Operations: Add, Edit, and Delete Listings
-Review System: Add and Delete Reviews
-User Data Security: Password Hashing and Encryption
-Interactive Maps: Leveraging Mapbox for Location Visualization
-Login with Email: Traditional email login for user convenience
-<hr>
+<ul>
+   <li>CRUD Operations: Add, Edit, and Delete Listings</li>
+   <li>Review System: Add and Delete Reviews</li>
+   <li>User Data Security: Password Hashing and Encryption</li>
+   <li>Interactive Maps: Leveraging Mapbox for Location Visualization</li>
+   <li>Login with Email: Traditional email login for user convenience</li>
+   
+</ul>
 
 
 ## How to Install
@@ -93,6 +135,7 @@ Follow these steps to set up and run the project locally:
  1. Clone the Repository:
 
     https://github.com/Saurabh-Sharma-1999/Airbnb-Major-Project
+    
     cd Airbnb-Major-Project
 
 2. Install Dependencies:
@@ -122,13 +165,20 @@ Follow these steps to set up and run the project locally:
 
 ## Challenges & Solutions
 
-   Encountered challenges, especially with data handling, but implemented efficient solutions. Overcame scalability issues with a well-architected backend.
+ <ul>
+   <li>Encountered challenges, especially with data handling, but implemented efficient solutions. Overcame scalability issues with a well-architected backend.</li>
+</ul>
+
+   
 
 ## Author
-    Saurabh Sharma
-    Email: sharmas81969@gmail.com
-    LinkedIn :
 
+    Saurabh Sharma
+ <ul>
+   <li> Email: sharmas81969@gmail.com</li>
+    <li> LinkedIn :</li>
+</ul>
+    
 ## Project Link
 
 <a href="https://airbnb-major-project-sbjr.onrender.com/">Live Link</a>
