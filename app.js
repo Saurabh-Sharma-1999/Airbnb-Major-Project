@@ -89,13 +89,14 @@ app.use((req, res, next) => {
 
 // Listing Middleware
 app.use("/listing", listingRouter);
+// user middleware
+
+app.use("/", userRouter);
 
 // reviews middleware
 app.use("/listing/:id/reviews", reviewRouter);
 
-// user middleware
 
-app.use("/", userRouter);
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "Page not found!" ));
