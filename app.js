@@ -87,11 +87,12 @@ app.use((req, res, next) => {
     next();
 })
 
-// Listing Middleware
-app.use("/listing", listingRouter);
 // user middleware
 
 app.use("/", userRouter);
+
+// Listing Middleware
+app.use("/listing", listingRouter);
 
 // reviews middleware
 app.use("/listing/:id/reviews", reviewRouter);
