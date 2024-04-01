@@ -1,63 +1,118 @@
 <% layout("/layouts/boilerplate") %>
+<link rel="stylesheet" href="/css/button-style.css">
 <body>
-    <div class="row mt-3">
-        <div class="col-8 offset-2">
-           
+    <div class="row mt-0 mx-auto">
+        <div class="col-md-8 mx-auto">
+            <br><br>
            <h3>Edit your Listing</h3>
            <form method="POST" action="/listing/<%= listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
                 <div class="mb-3">
-                    <label for="title" class="form-label">Title:</label>
-                    <input type="text" name="listing[title]" value = "<%= listing.title %>" class="form-control" id="title" required>
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" name="listing[title]" value = "<%= listing.title %>" class="form-control border border-black border-opacity-50" id="title" required>
                     <div class="valid-feedback">
                         Title Looks good!
                        </div>
                 </div>
                 <div class="mb-3">
-                    <label for="description" class="form-label">Description:</label>
-                    <textarea type="text" name="listing[description]" id="description" class="form-control" required> <%= listing.description %></textarea>
+                    <label for="description" class="form-label">Description</label>
+                    <textarea cols="20" rows="3" type="text" name="listing[description]" id="description" class="form-control border border-black border-opacity-50" required> <%= listing.description %></textarea>
                     <div class="invalid-feedback">
                         Please Enter a Short discription
                        </div>
                </div>
 
                <div class="mb-3">
-                    Original Listing Image <br>
-                    <img src="<%= originalImageUrl %>" class="originalImage">
+                    <label for="image" class="form-label">Original Image Preview</label><br>
+                    <img src="<%= originalImageUrl %>" class="listingImg" alt="Original Image">
                </div>
+              
                <div class="mb-3">
                      <label for="image" class="form-label">Upload Listing Image: </label>
-                     <input type="file" name="listing[image]"  id="image" class="form-control">
+                     <input type="file" name="listing[image]"  id="image" class="form-control border border-black border-opacity-50">
 
                 </div>
+                <div class="m-b3">
+                    <label for="category-added" class="form-label">Previous Category</label>
+                    <div class="category-added" id="category-added">
+                        <p><b>Selected :&nbsp;&nbsp;</b></p>
+                        <% for(categ of listing.category){ %>
+                            <p>
+                                <%= categ %>&nbsp;&nbsp;
+                            </p>
+                            <% } %>
+                    </div>
+                </div>
+                <div class="m-b3">
+                    <label for="category" class="form-label">Choose Category</label>
+                    <div class="category-choose">
+                        <p><b>Single choose :</b> Click &nbsp;&nbsp;</p>
+                        <p><b>Multiple choose :</b> Ctrl + Click</p>
+                    </div>
+                    <select id="category" name="listing[category]"
+                        class="form-select border border-black border-opacity-50 mb-2" multiple
+                        style="font-size: .95rem;">
+                        <option value="Beachfront">Beachfront</option>
+                        <option value="Cabins">Cabins</option>
+                        <option value="Omg">OMG</option>
+                        <option value="Lake">Lake</option>
+                        <option value="Design">Design</option>
+                        <option value="Amazing Pools">Amazing pools</option>
+                        <option value="Farms">Farms</option>
+                        <option value="Amazing Views">Amazing views</option>
+                        <option value="Rooms">Rooms</option>
+                        <option value="Lakefront">Lakefront</option>
+                        <option value="Tiny Homes">Tiny homes</option>
+                        <option value="Countryside">Countryside</option>
+                        <option value="Treehouse">Treehouse</option>
+                        <option value="Trending">Trending</option>
+                        <option value="Tropical">Tropical</option>
+                        <option value="National Parks">National parks</option>
+                        <option value="Casties">Casties</option>
+                        <option value="Camping">Camping</option>
+                        <option value="Top Of The World">Top of the world</option>
+                        <option value="Luxe">Luxe</option>
+                        <option value="Iconic Cities">Iconic cities</option>
+                        <option value="Earth Homes">Earth homes</option>
+                    </select>
+                </div>
                 <div class="row">
-                    <div class="mb-3 col-4">
-                        <label for="number" class="form-label">Price:</label>
-                        <input type="number" name="listing[price]" value = "<%= listing.price %>" id="number" class="form-control" required>
+                    <div class="mb-3 col-md-4">
+                        <label for="number" class="form-label">Price</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">₹</span>
+                            </div>
+                            <input type="number" name="listing[price]" value = "<%= listing.price %>" id="number" class="form-control border border-black border-opacity-50" required>
+                            <div class="input-group-append">
+                                <span class="input-group-text">.00</span>
+                            </div>
+                        </div>
+                        
                         <div class="invalid-feedback">
                             Price should be valid
                            </div>
                     </div>
-                    <div class="mb-3 col-8">
+                    <div class="mb-3 col-md-8">
                         <label for="country" class="form-label">Country:</label>
-                        <input type="text" name="listing[country]" value = "<%= listing.country %>" id="country" class="form-control" required>
+                        <input type="text" name="listing[country]" value = "<%= listing.country %>" id="country" class="form-control border border-black border-opacity-50" required>
                         <div class="invalid-feedback">
                             Please Enter Your Country Name
-                           </div>
+                        </div>
     
                 
                     </div>
                 </div>
                 <div class="mb-3">
                     <label for="location" class="form-label">Location:</label>
-                    <input type="text" name="listing[location]" value = "<%= listing.location %>" id="location" class="form-control" required>
+                    <input type="text" name="listing[location]" value = "<%= listing.location %>" id="location" class="form-control border border-black border-opacity-50" required>
                     <div class="invalid-feedback">
                         Please Enter Your Location
                        </div>
 
               </div>
              
-              <button class="btn btn-dark edit-btn mt-3">Edit</button>
-              <br><br>
+              <button class="btn btn-success mb-3 styleBtn">Edit</button>
+              
 
         
             </form>

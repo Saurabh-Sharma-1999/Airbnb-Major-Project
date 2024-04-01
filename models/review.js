@@ -18,7 +18,13 @@ const reviewSchema = new Schema(
         author: {
             type:Schema.Types.ObjectId,
             ref: "User"
+        },
+         // add listing id
+        listing: {
+            type: Schema.Types.ObjectId,
+            ref: "Listing"
         }
+    
     }
 )
 
