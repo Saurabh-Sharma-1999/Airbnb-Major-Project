@@ -181,7 +181,7 @@ Follow these steps to set up and run the project locally:
     
 ## Project Link
 
-<a href="https://airbnb-major-project-sbjr.onrender.com/">Live Link</a>
+<a href="https://airbnb-major-project-sbjr.onrender.com/listing">Live Link</a>
 
 ## Thank You
 
