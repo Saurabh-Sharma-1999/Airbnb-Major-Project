@@ -4,187 +4,150 @@ This is a clone of Airbnb, a popular online marketplace for vacation rentals. Th
 
 ## Table of Contents
 
-<ul>
-   <li>Features</li>
-   <li> Technologies & Packages Used</li>
-   <li>Key Features</li>
-   <li>How to Install</li>
-   <li> Challenges & Solutions</li>
-   <li>Author</li>
-   <li>Project Link</li>
+- [Project Image](#project-image)
+- [Features](#features)
+- [Technologies & Packages Used](#technologies--packages-used)
+- [Key Features](#key-features)
+- [How to Install](#how-to-install)
+- [Challenges & Solutions](#challenges--solutions)
+- [Author](#author)
+- [Project Link](#project-link)
+- [Thank You](#thank-you)
 
-</ul>
+## Project Image
+
+![Home Page](Screenshots/HomePage.png)
+![Footer Page](Screenshots/Footer.png)
+![Footer Page2](Screenshots/Footer2.png)
+![Filter Section](Screenshots/FilterSections.png)
+![Search Section](Screenshots/Searchsection.png)
+![Search Result](Screenshots/SearchResult.png)
+![Login Page](Screenshots/LoginPage.png)
+![Signup Page](Screenshots/SignUpPage.png)
+![Create New Listing](Screenshots/CreatenewListing.png)
+![Show Page](Screenshots/ShowPage.png)
+![Rating section](Screenshots/Rating.png)
+![Map Section](Screenshots/MapSection.png)
+![Edit page](Screenshots/Editpage.png)
+![Edit Page2](Screenshots/Editpage2.png)
 
 ## Features
 
-<ul>
-   <li>User Authentication: Users can sign up, log in, and log out securely.</li>
-   <li>Property Listings: Users can view available properties for rent.</li>
-   <li>Property Details: Detailed information about each property, including description, amenities, location, and photos.</li>
-   <li>Booking System: Users can make reservations for properties.</li>
-   <li> Reviews and Ratings: Users can leave reviews and ratings for properties they have stayed in</li>
-   
-</ul>
+- User Authentication: Users can sign up, log in, and log out securely.
+- Property Listings: Users can view available properties for rent.
+- Property Details: Detailed information about each property, including description, amenities, location, and photos.
+- Booking System: Users can make reservations for properties.
+- Reviews and Ratings: Users can leave reviews and ratings for properties they have stayed in.
 
 ## Technologies & Packages Used
 
 ### Backend
 
-<ul>
-   <li>MongoDB: NoSQL database for flexible and scalable data storage.</li>
-   <li> Express.js: Web application framework for Node.js, providing robust features for web and mobile applications.</li>
-   <li>Node.js: JavaScript runtime for server-side development.</li>
-   
-</ul>
-
+- MongoDB: NoSQL database for flexible and scalable data storage.
+- Express.js: Web application framework for Node.js, providing robust features for web and mobile applications.
+- Node.js: JavaScript runtime for server-side development.
 
 ### Authentication
 
- 
-<ul>
-   <li>Passport.js: Middleware for user authentication, supporting various strategies.</li>
-   <li> Dotenv: Environment variable management for secure configuration.</li>  
-</ul>
- 
+- Passport.js: Middleware for user authentication, supporting various strategies.
+- Dotenv: Environment variable management for secure configuration.
 
 ### Image Storage
 
-<ul>
-   <li>Cloudinary: Cloud-based image and video management solution.</li>
-</ul>
-
- 
+- Cloudinary: Cloud-based image and video management solution.
 
 ### Maps
 
-<ul>
-   <li>Mapbox: Platform for custom maps and location-based experiences.</li>
-</ul>
-
-
+- Mapbox: Platform for custom maps and location-based experiences.
 
 ### Frontend
 
-<ul>
-   <li>EJS: Embedded JavaScript templates for dynamic content rendering.</li>
-</ul>
-
-
+- EJS: Embedded JavaScript templates for dynamic content rendering.
 
 ### Session Management
 
-
-<ul>
-   <li>Connect Flash: Middleware for flash messages.</li>
-   <li> Connect Mongo: MongoDB session store for Express.js.</li>
-   <li>Cookie Parser: Middleware for parsing cookies.</li>
-   
-</ul>
-
-
-
+- Connect Flash: Middleware for flash messages.
+- Connect Mongo: MongoDB session store for Express.js.
+- Cookie Parser: Middleware for parsing cookies.
 
 ### Validation
 
-<ul>
-   <li>Joi: Library for data validation.</li>
-</ul>
-
-
+- Joi: Library for data validation.
 
 ### Object Modeling
- 
- <ul>
-   <li>Mongoose: MongoDB object modeling for Node.js.</li>
-</ul>
 
-
+- Mongoose: MongoDB object modeling for Node.js.
 
 ### File Uploads
 
- <ul>
-   <li>Multer: Middleware for handling file uploads.</li>
-</ul>
-
-
-
+- Multer: Middleware for handling file uploads.
 
 ### Social Authentication
 
- <ul>
-   <li>Passport Local: Local authentication strategy.</li>
-    <li>Passport Local Mongoose: Mongoose-specific authentication strategy. Authentication</li>
-</ul>
+- Passport Local: Local authentication strategy.
+- Passport Local Mongoose: Mongoose-specific authentication strategy. Authentication
 
 ## Key Features
 
-<ul>
-   <li>CRUD Operations: Add, Edit, and Delete Listings</li>
-   <li>Review System: Add and Delete Reviews</li>
-   <li>User Data Security: Password Hashing and Encryption</li>
-   <li>Interactive Maps: Leveraging Mapbox for Location Visualization</li>
-   <li>Login with Email: Traditional email login for user convenience</li>
-   
-</ul>
-
+- CRUD Operations: Add, Edit, and Delete Listings
+- Review System: Add and Delete Reviews
+- User Data Security: Password Hashing and Encryption
+- Interactive Maps: Leveraging Mapbox for Location Visualization
+- Login with Email: Traditional email login for user convenience
 
 ## How to Install
 
 Follow these steps to set up and run the project locally:
+
+1. Clone the Repository:
+   
+   ```bash
+   git clone https://github.com/Saurabh-Sharma-1999/Airbnb-Major-Project.git
+
+### Navigate to the project directory.
+
+   ```bash
+   cd Airbnb-Major-Project
+   ```
+### Install dependencies.
  
- 1. Clone the Repository:
+   ```bash
+      npm install
+   ```
 
-    https://github.com/Saurabh-Sharma-1999/Airbnb-Major-Project
+### Set Up Environment Variables:
 
-    cd Airbnb-Major-Project
+- Configure the following environment variables by creating a .env file in the root of your project:
+  
+```bash
+  CLOUD_NAME=
+  CLOUD_API_KEY=
+  CLOUD_API_SECRET=
+  MAP_TOKEN=
+  ATLASDB_URL=
+  SECRET=
+```
+Replace the values with your specific configurations.
 
-2. Install Dependencies:
-
-     npm install
-
-3. Set Up Environment Variables:
-
-    Configure the following environment variables by creating a .env file in the root of your project:
-
-        CLOUD_NAME=
-        CLOUD_API_KEY=
-        CLOUD_API_SECRET=
-        MAP_TOKEN=
-        ATLASDB_URL=
-        SECRET=
-
-    Replace the values with your specific configurations.
-
-4. Run the Application:
-
-    node app.js
-
-5. Open in Your Browser:
-
-    Open http://localhost:8080/listings in your web browser.
+### Open in Your Browser:
+```bash
+Open [http://localhost:8080/listing](http://localhost:8080/listing) in your web browser.
+```
 
 ## Challenges & Solutions
 
- <ul>
-   <li>Encountered challenges, especially with data handling, but implemented efficient solutions. Overcame scalability issues with a well-architected backend.</li>
-</ul>
-
-   
+- Encountered challenges, especially with data handling, but implemented efficient solutions. Overcame scalability issues with a well-architected backend.
 
 ## Author
 
-    Saurabh Sharma
- <ul>
-   <li> Email: sharmas81969@gmail.com</li>
-    <li> LinkedIn :</li>
-</ul>
-    
+- Saurabh Sharma
+- Email: saurabh7411sharma@gmail.com
+- LinkedIn :
+
 ## Project Link
 
-<a href="https://airbnb-major-project-sbjr.onrender.com/listing">Live Link</a>
+[Live Link](https://airbnb-major-project-sbjr.onrender.com/listing)
 
 ## Thank You
 
-Thank you for exploring Airbnb! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us. 
-
-
+Thank you for exploring Airbnb! Your feedback is valuable. If you have any suggestions or thoughts, feel free to share them with us.
