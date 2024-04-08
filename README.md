@@ -16,19 +16,46 @@ This is a clone of Airbnb, a popular online marketplace for vacation rentals. Th
 
 ## Project Image
 
+### Home Page
 ![Home Page](Screenshots/HomePage.png)
+
+### Footer Page
 ![Footer Page](Screenshots/Footer.png)
+
+### Footer Page2
 ![Footer Page2](Screenshots/Footer2.png)
+
+### Filter Section
 ![Filter Section](Screenshots/FilterSections.png)
+
+### Search Section
 ![Search Section](Screenshots/Searchsection.png)
+
+### Search Result
 ![Search Result](Screenshots/SearchResult.png)
+
+### Login Page
 ![Login Page](Screenshots/LoginPage.png)
+
+### Signup Page
 ![Signup Page](Screenshots/SignUpPage.png)
+
+### Create New Listing
 ![Create New Listing](Screenshots/CreatenewListing.png)
+
+### Show Page
 ![Show Page](Screenshots/ShowPage.png)
+
+### Rating section
 ![Rating section](Screenshots/Rating.png)
+
+### Map Section
 ![Map Section](Screenshots/MapSection.png)
+
+### Edit Page
 ![Edit page](Screenshots/Editpage.png)
+
+### Edit Page2
 ![Edit Page2](Screenshots/Editpage2.png)
 
 ## Features
