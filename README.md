@@ -169,7 +169,7 @@ Open [http://localhost:8080/listing](http://localhost:8080/listing) in your web 
 
 - Saurabh Sharma
 - Email: saurabh7411sharma@gmail.com
-- LinkedIn :
+- LinkedIn : https://www.linkedin.com/in/saurabh-sharma-mern1999/
 
 ## Project Link
 
